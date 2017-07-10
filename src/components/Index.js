@@ -33,6 +33,7 @@ class Index extends Component{
 	render(){
 		return(
 			<div>
+				<div>KEVIN, YOU ARE A NERRRRDDDD</div>
 				<div style={{marginLeft: this.state.pos}}>this</div>
 				<div style={{margin:'1000px'}}>fuckk</div>
 				<div>lol</div>
