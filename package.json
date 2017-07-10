@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Danny Seo's web portfolio",
   "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "Danny Seo",
   "license": "MIT",
   "dependencies": {
