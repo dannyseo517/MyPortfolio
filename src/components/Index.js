@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import ReactDom from'react-dom';
+require( '../../public/assets/css/index.css');
 
 const lol = {
 	margin: 0
@@ -33,10 +35,8 @@ class Index extends Component{
 	render(){
 		return(
 			<div>
-				<div>KEVIN, YOU ARE A NERRRRDDDD</div>
-				<div style={{marginLeft: this.state.pos}}>this</div>
-				<div style={{margin:'1000px'}}>fuckk</div>
-				<div>lol</div>
+				<img className="wallpaper" src='./assets/images/wallpaper.jpg'/>
+
 			</div>
 		)
 	}
